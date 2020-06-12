@@ -1,0 +1,14 @@
+header {
+  &.main-header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  nav {
+    width: 100%;
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
